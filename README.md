@@ -10,8 +10,7 @@ JS - The logic (and actual code)
 
 ## Creating an HTML Page
 
-### Breakdown
-####Comments
+### Comments
 ```
 <!-- Comments go in here-->
 
@@ -23,7 +22,7 @@ Line 2
 
 ```
 
-####How tags work
+### How tags work
 Replace `X` with the name of the tag. Be sure to close any tags that you open! 
 ```$xslt
 <X>  <!-- Open tag -->
@@ -31,7 +30,7 @@ Replace `X` with the name of the tag. Be sure to close any tags that you open!
 </X> <!-- Close tag -->
 ```
 
-####Sample Page
+### Sample Page
 ```
 <html lang="en">
 <head>                           <!-- Contains meta data (stuff that isn't displayed) -->
@@ -45,7 +44,7 @@ This is a cool website.
 </html>
 ```
 
-#### Basic text
+### Basic text
 ```$xslt
 <p>
     This is a paragraph
@@ -72,7 +71,7 @@ This is a cool website.
 </h5>
 ```
 
-#### Hyperlinks
+### Hyperlinks
 You can use a-tags to direct users to another page. 
 ```$xslt
 <a src="https://google.com">
