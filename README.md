@@ -126,7 +126,7 @@ To install bootstrap, add the following in your `<head>`.
 ```
 Here's some documentation to help you get started: <br>
 
-[https://getbootstrap.com/docs/4.3/getting-started/introduction/]
+[Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 ### Scale on mobile properly
 Add this to make sure your website scales on mobile properly.
