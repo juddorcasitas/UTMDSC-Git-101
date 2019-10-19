@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    font-family: Lato;
+    scroll-behavior: smooth; /* Makes scrolling smooth and cool */
+}
+
+#intro {
+
+    height: 100vh;
+
+    background: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#introTable {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.coolSection {
+    text-align: center;
+    padding: 30px;
+}
+
+.spacer {
+    height: 50%;
+}
+
+.unspace {
+    transform: translateY(-50%);
+}
+
+#introBox {
+    background: aliceblue;
+
+    padding: 40px;
+    border-radius: 20px;
+
+    width: 100%;
+
+    min-height: 200px;
+    max-width: 500px;
+
+    /* Horizontal Centering */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hobbies img {
+    max-height: 300px;
+}

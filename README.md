@@ -72,7 +72,7 @@ This is a cool website.
 ```
 
 ### Hyperlinks
-You can use a-tags to direct users to another page. 
+You can use  `a` tags to direct users to another page. 
 ```$xslt
 <a src="https://google.com">
     <!-- What you want to be clicked goes here -->
@@ -80,3 +80,42 @@ You can use a-tags to direct users to another page.
     Go to Google!
 </a>
 ```
+
+Add ``target="_blank"`` to the `a` tag to make it open in a new tab.
+```$xslt
+<a src="https://google.com" target="_blank">
+    <!-- What you want to be clicked goes here -->
+    
+    Go to Google!
+</a>
+```
+
+### Images
+You can use `img` tags to add images to your website! Put the path to your desired image in `src=""`
+```$xslt
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</img>
+```
+
+### Bootstrap
+Bootstrap is a popular framework for frontend web projects. Why make something from scratch when it already exists?
+<br>
+<br>
+To install bootstrap, add the following in your `<head>`.
+
+```$xslt
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+```
+<br>
+Here's some documentation to help you get started: <br>
+
+[https://getbootstrap.com/docs/4.3/getting-started/introduction/]
+
+### Scale on mobile properly
+Add this to make sure your website scales on mobile properly.
+
+```<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />```
