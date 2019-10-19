@@ -97,6 +97,13 @@ You can use `img` tags to add images to your website! Put the path to your desir
 </img>
 ```
 
+### Linking CSS
+It's good practice to put CSS in a different file so that your code doesn't become super cluttered. Put the path to your CSS file in `href=""`.
+
+
+``    <link href="css/main.css" rel="stylesheet">
+``
+
 ### Bootstrap
 Bootstrap is a popular framework for frontend web projects. Why make something from scratch when it already exists?
 <br>
@@ -110,7 +117,6 @@ To install bootstrap, add the following in your `<head>`.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 ```
-<br>
 Here's some documentation to help you get started: <br>
 
 [https://getbootstrap.com/docs/4.3/getting-started/introduction/]
