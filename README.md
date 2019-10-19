@@ -1,6 +1,13 @@
 # UTMDSC-Web-101
 By Henry Tu
 
+## Demo Pages
+
+[Hello World!](https://henrytwo.github.io/UTMDSC-Web-101/step-1-helloworld) <br>
+[HTML Tags](https://henrytwo.github.io/UTMDSC-Web-101/step-2-tags) <br>
+[CSS](https://henrytwo.github.io/UTMDSC-Web-101/step-3-css) <br>
+[Bootstrap](https://henrytwo.github.io/UTMDSC-Web-101/step-4-bootstrap) <br>
+
 ## Bread and Butter
 There are 3 main components to a website (frontend).
 
