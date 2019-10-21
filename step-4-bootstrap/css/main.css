@@ -21,10 +21,6 @@
     margin-right: auto;
 }
 
-table, th, td {
-    border: 1px solid black;
-}
-
 .coolSection {
     text-align: center;
     padding: 30px;

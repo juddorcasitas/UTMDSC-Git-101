@@ -111,6 +111,11 @@ It's good practice to put CSS in a different file so that your code doesn't beco
 ``    <link href="css/main.css" rel="stylesheet">
 ``
 
+### Scale on mobile properly
+Add this to make sure your website scales on mobile properly.
+
+```<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />```
+
 ### Bootstrap
 Bootstrap is a popular framework for frontend web projects. Why make something from scratch when it already exists?
 <br>
@@ -127,8 +132,3 @@ To install bootstrap, add the following in your `<head>`.
 Here's some documentation to help you get started: <br>
 
 [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-
-### Scale on mobile properly
-Add this to make sure your website scales on mobile properly.
-
-```<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />```
