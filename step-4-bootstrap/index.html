@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>Henry's Website</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link href="css/main.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">My Cool Website</a>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,65 +27,58 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <!-- Intro -->
-<section id="intro" class="coolSection">
+<section id="intro" class="section">
 
-    <div class="spacer"></div>
-    <div class="unspace">
+    <div id="intro-inner">
 
-        <div id="introBox">
-            <img src="img/uoft-logo.png" style="width: 60%">
+        <div class="spacer"></div>
+        <div class="unspace">
 
-            <br>
-            <br>
+            <h1>Welcome to my website!</h1>
 
-            <h1>Welcome to my Website!</h1>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
 
-            <a href="https://q.utoronto.ca" target="_blank">
-                <button type="button" class="btn btn-success">Open Quercus</button>
-            </a>
         </div>
 
     </div>
 
 </section>
 
-<!-- About Me -->
-<section id="about" class="coolSection">
+<section id="about" class="section content">
 
-    <h1>
-        My hobbies
-    </h1>
+    <h1>About Me</h1>
 
-    <div id="hobbies" class="row">
-
-        <div class="col-lg-4">
-            <img src="https://www.scotts.com/sites/g/files/oydgjc106/files/styles/scotts_asset_image_720_440/public/asset_images/compressed_Bentgrass.jpg?itok=y8WmaAoH">
-
-            <h3>Grass</h3>
+    <div class="row">
+        <div class="col-sm-6">
+            <img id="about-me-img" src="https://tpwd.texas.gov/huntwild/wild/game_management/deer/images/WTD-Headshot.jpg">
         </div>
-        <div class="col-lg-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg">
-
-            <h3>Trees</h3>
+        <div class="col-sm-6">
+            Containers provide a means to center and horizontally pad your site’s contents. Use .container for a responsive pixel width or .container-fluid for width: 100% across all viewport and device sizes.
         </div>
-        <div class="col-lg-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Waterdrops_%284648726722%29.jpg/220px-Waterdrops_%284648726722%29.jpg">
-
-            <h3>Water</h3>
-        </div>
-
     </div>
 
+
 </section>
-
-
 
 </body>
 </html>
