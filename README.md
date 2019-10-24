@@ -1,6 +1,6 @@
 # UTMDSC-Git-101
 By Krish Chowdhary <br>
-Source Code forked from henrytu
+Source Code forked from [Henry Tu](https://github.com/henrytwo/UTMDSC-Web-101)
 ## Demo Pages
 
 [Current Webpage](https://henrytwo.github.io/UTMDSC-Web-101/step-2-tags) <br>
