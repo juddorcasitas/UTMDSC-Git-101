@@ -1,5 +1,5 @@
 # UTMDSC-Git-101
-By Krish Chowdhary
+By Krish Chowdhary <br>
 Source Code forked from henrytu
 ## Demo Pages
 
